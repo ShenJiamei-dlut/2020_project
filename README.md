@@ -26,7 +26,7 @@ python3 pypt.py [-c pypt.conf] [--config=pypt.conf]
 ```md
 %title: Sample
 %author: Hugehard
-%date: Jan 8, 2020
+%date: Jan 8, 2021
 
 # Head
 
