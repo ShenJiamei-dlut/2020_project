@@ -32,7 +32,7 @@ python3 pypt.py --input=filename
 
 ## Author <section 2>
 
-- 201892937 张佳音
+- 201892397 张佳音
 - 201892069 沈佳眉
 - 201892203 陈昱桥
 
