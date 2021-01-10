@@ -73,7 +73,7 @@ class Document:
     # Read from file
     def readFile(self, fileName):
         # Read data from file
-        with open(fileName, 'r') as f:
+        with open(fileName, 'r', encoding='utf-8') as f:
             lines = f.readlines()
             paraStr = ''
             pg = page.Page()
@@ -127,7 +127,7 @@ class Document:
 if '__main__' == __name__:
     logging.basicConfig(level=logging.DEBUG)
     doc = Document()
-    doc.readFile('pypt.md')
+    doc.readFile('demo.md')
     for sec in doc.sections:
         for pg in sec.pages:
             for para in pg.paras:
