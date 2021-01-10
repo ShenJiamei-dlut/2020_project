@@ -13,7 +13,7 @@ class Config:
     Defined to store configurations
     '''
     confParser = parser.ConfigParser(allow_no_value=True)
-    inName = 'pypt.md'
+    inName = 'demo.md'
     configName = 'pypt.conf'
     theme = {}
     theme['h1'] = ['Sans', 24, 'bold']
